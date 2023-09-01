@@ -1,2 +1,3 @@
 # Automation-of-Math-tasks
- Stuuf in normally should do by hand but i dont care
+ Stuuf I normally should do by hand but i don't care
+ till now used library is numpy
