@@ -17,6 +17,7 @@ class GausAlgo():
                 numbers[i + 1][0] = 0
                 for v in range(n - m):
                     numbers[i + 1 + m][v + 1] -= numbers[m][v + 1] * c
+        print(numbers)
         for m in range(n - 1):
             for i in range(n - 1 - m):
                 c = numbers[i][n - 1 - m] / numbers[n - 1 - m][n - 1 - m]
